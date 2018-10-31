@@ -1,0 +1,40 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: #00FFFF;
+  background-color: #121212;
+  position: relative;
+  height: 100vh;
+  overflow: hidden; }
+
+.title {
+  text-align: center; }
+
+.clock-box {
+  width: 20%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .clock-box__time {
+    width: 300px;
+    font-size: 82px;
+    position: relative; }
+    .clock-box__time-second {
+      font-size: 18px;
+      position: absolute;
+      right: -27px;
+      bottom: 20px; }
+  .clock-box__date {
+    width: 300px;
+    position: relative;
+    text-align: center;
+    margin-top: -70px;
+    display: flex;
+    justify-content: space-between; }
+    .clock-box__date-left {
+      text-transform: uppercase; }
+    .clock-box__date-weekday {
+      text-transform: uppercase;
+      position: absolute;
+      right: 0px;
+      bottom: 17px; }
